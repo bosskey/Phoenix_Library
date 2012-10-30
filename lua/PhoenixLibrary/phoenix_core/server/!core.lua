@@ -1,0 +1,1 @@
+SetGlobalBool("PhxLibEquipped",true)

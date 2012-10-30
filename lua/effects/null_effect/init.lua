@@ -1,0 +1,1 @@
+function EFFECT:Init() endfunction EFFECT:Render() endfunction EFFECT:Think()	return falseend_G.NULL_EFFECT = table.Copy(EFFECT)

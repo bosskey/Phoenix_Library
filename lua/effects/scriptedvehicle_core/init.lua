@@ -1,0 +1,1 @@
+function EFFECT:Init()	scripted_vehicles._SpawnVehicle(self)endfunction EFFECT:Think()	return scripted_vehicles._ThinkVehicle(self)endfunction EFFECT:Render()	scripted_vehicles._RenderVehicle(self)end

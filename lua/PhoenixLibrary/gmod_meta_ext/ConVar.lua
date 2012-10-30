@@ -1,0 +1,1 @@
+local meta = _R["ConVar"]local oldFloat = meta.GetFloatfunction meta:GetFloat()	return tonumber(self:GetString())endmeta.GetNumber = meta.GetFloat

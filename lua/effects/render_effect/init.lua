@@ -1,0 +1,1 @@
+function EFFECT:Init()	self.Entity:SetModel( "models/error.mdl" )endfunction EFFECT:Think()	self.Entity:SetRenderBoundsWS(LocalPlayer():GetPos()+LocalPlayer():OBBMins(),LocalPlayer():GetPos()+LocalPlayer():OBBMaxs())	return trueendfunction EFFECT:Render()	gamemode.Call("RenderGlobalEffect")end

@@ -1,0 +1,1 @@
+scripted_vehicles._Register(OBJ_NAME,OBJ)

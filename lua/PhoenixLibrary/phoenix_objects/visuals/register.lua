@@ -1,0 +1,1 @@
+visuals.Register(OBJ_NAME,OBJ)

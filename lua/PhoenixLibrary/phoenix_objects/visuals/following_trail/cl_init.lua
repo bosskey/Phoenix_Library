@@ -1,0 +1,1 @@
+function OBJ:Initialize()	endfunction OBJ:Think()	endfunction OBJ:Render()	end

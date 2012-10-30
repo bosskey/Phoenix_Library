@@ -1,0 +1,1 @@
+projectiles._Register(OBJ_NAME,OBJ)

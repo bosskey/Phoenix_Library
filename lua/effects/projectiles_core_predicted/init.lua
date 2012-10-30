@@ -1,0 +1,1 @@
+function EFFECT:Init()	projectiles._PredictProjectile(self)endfunction EFFECT:Think()	return projectiles._ThinkProjectile(self)endfunction EFFECT:Render()	projectiles._RenderProjectile(self)end

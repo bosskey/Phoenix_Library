@@ -1,0 +1,1 @@
+function OBJ:Receive(objNW)	self.Origin = objNW:GetVectorA()	self.Entity:SetAngles(objNW:GetAngle())	self.Filter = {objNW:GetEntityA()}endfunction OBJ:Initialize()	self.Entity:SetPos(self.Origin)	self.TracerMat = Material(self.Config.Tracer)	self:CalcTrajectory()endfunction OBJ:Think()	return falseendfunction OBJ:Render()end
